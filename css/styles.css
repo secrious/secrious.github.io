@@ -1,0 +1,99 @@
+/* ===================================== */
+/* ===================================== */
+
+@font-face {
+   font-family: "Bahnschrift";
+   src: url('../assets/font/BAHNSCHRIFT.TTF') format('truetype');
+ }
+
+html {
+  scroll-behavior: smooth;
+}
+html,
+body {
+  height: 100%;
+  color: #4D4D4D;
+  font-family: 'Bahnschrift';
+}
+
+a {
+    color: #ECA000;
+}
+a:hover {
+    color: #FFAD00;
+}
+
+.bg-secrious-1 {
+    background-color: #FFAD00;
+}
+.navbar .navbar-brand,
+.navbar .navbar-text,
+.navbar .nav-item .nav-link {
+    color: #4D4D4D;
+}
+.navbar .nav-item .nav-link:hover,
+.navbar .nav-item .nav-link:focus {
+    color: #1D1D1D;
+    font-weight: bold;
+}
+
+
+.txt-color-secrious-dark {
+    color: #4D4D4D;
+}
+.txt-color-secrious-dark2 {
+    color: #989898;
+}
+.bg-secrious-2 {
+    background-color: #FAB82E;
+}
+.bg-secrious-3 {
+    background-color: #4D4D4D;
+}
+.bg-secrious-4 {
+    background-color: #989898;
+}
+.bg-secrious-5 {
+    background-color: #E5E5E5;
+}
+
+.feature {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  width: 3rem;
+  font-size: 1.5rem;
+}
+
+.bg-featured-blog {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 15rem;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background-color: #FFAD00;
+  border-color: #FAB82E;
+}
+
+.rounded-circle {
+    width: 100px;
+    height: 100px;
+}
+
+#accordion .card .card-header {
+    background-color: #FFAD00;
+    color: white;
+}
+#accordion .card .card-header .btn-link {
+    color: white;
+    text-decoration: none;
+}
